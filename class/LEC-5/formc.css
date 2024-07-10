@@ -1,0 +1,19 @@
+.first1{
+border: 2px  solid rgb(9, 1, 1) ; 
+height:600px;
+width:600px;   
+}
+
+
+.first{
+font-size: 17px;
+background-color: skyblue;
+}
+#submit{
+    color:white;
+    background-color: blue;
+    height:30px;
+    width:80px;
+    border-radius: 20;
+    
+}
