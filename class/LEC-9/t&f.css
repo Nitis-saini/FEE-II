@@ -1,0 +1,19 @@
+.a1{
+    text-align: center;
+}
+h1{
+    text-align: inherit;
+}
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: line-through;
+    font-size: 40px;
+    text-decoration-style:double;
+    text-decoration-color: aquamarine;
+}
+h3{
+    text-shadow: 10px 8px 5px blue;
+    color: transparent;
+}
