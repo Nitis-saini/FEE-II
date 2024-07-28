@@ -4,6 +4,8 @@
 nav{
     padding: 10px;
     display: flex;align-items: center;
+    background-color: #6E3832;
+
 }
 #container{
     width: 80vw;
@@ -18,9 +20,7 @@ div img{
     height: 100%;
     border-radius: 10px;
 }
-nav{
-    background-color: #6E3832;
-}
+
 nav a{
     text-decoration: none;
     color: white;
@@ -32,4 +32,21 @@ nav a{
    padding: 20px;
     border-radius: 10px;
     background-color: rgba(239, 226, 226);
+}
+img:hover{
+    opacity:.7;
+    scale:1.05;
+}
+div i{
+    position: relative;
+    cursor: pointer;
+    font-size: 3.4rem;
+    bottom:60%;
+    left: 45%;
+    transform: scale(0);
+    transition: 400ms;
+    transition-timing-function: cubic-bezier(0.34, 2, 0.64, 1);;
+}
+div:hover i{
+    transform: scale(1);
 }
